@@ -4,7 +4,7 @@ import google.generativeai as genai
 import uvicorn
 
 # ✅ Gemini API Key
-GEMINI_API_KEY = "AIzaSyB0fuPK-VELWJYcbwjT7sWlQ-7gp3VrO8w"
+GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ✅ Use supported model name (update based on list_models output)
